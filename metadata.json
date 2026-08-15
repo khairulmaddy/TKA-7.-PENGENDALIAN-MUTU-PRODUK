@@ -1,6 +1,6 @@
 {
-  "name": "Aplikasi Ujian PKK - Pengendalian Mutu",
-  "description": "Aplikasi kuis interaktif Produk Kreatif dan Kewirausahaan (PKK) materi Pengendalian Mutu dengan 3 kali kesempatan, stopwatch, laporan admin, dan ekspor Excel.",
+  "name": "Aplikasi PKK - Pengendalian Mutu Produk",
+  "description": "Aplikasi kuis interaktif Produk Kreatif dan Kewirausahaan (PKK) materi Pengendalian Mutu Produk dengan 3 kali kesempatan, stopwatch, laporan admin, dan ekspor Excel.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

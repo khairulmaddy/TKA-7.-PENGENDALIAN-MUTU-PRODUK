@@ -12,7 +12,7 @@ export const AdminModal: React.FC<AdminModalProps> = ({
   onClose,
   onLoginSuccess,
 }) => {
-  const [username, setUsername] = useState('admin');
+  const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [errorMsg, setErrorMsg] = useState('');
 
@@ -65,8 +65,12 @@ export const AdminModal: React.FC<AdminModalProps> = ({
             <input
               type="text"
               required
+              placeholder="Masukkan username..."
               value={username}
-              onChange={(e) => setUsername(e.target.value)}
+              onChange={(e) => {
+                setUsername(e.target.value);
+                setErrorMsg('');
+              }}
               className="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:border-indigo-600 focus:ring-2 focus:ring-indigo-100 text-slate-900 font-medium text-sm outline-none"
             />
           </div>

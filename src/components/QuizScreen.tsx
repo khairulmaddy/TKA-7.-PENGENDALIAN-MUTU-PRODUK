@@ -370,7 +370,7 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({
             </div>
 
             <div className="space-y-2">
-              <h3 className="font-extrabold text-slate-900 text-xl">Kirim Jawaban Ujian?</h3>
+              <h3 className="font-extrabold text-slate-900 text-xl">Kirim Jawaban Pengendalian Mutu Produk?</h3>
               <p className="text-sm text-slate-600">
                 Anda telah menjawab <strong>{totalAnsweredCount}</strong> dari total <strong>{totalQuestions}</strong> soal.
                 {totalAnsweredCount < totalQuestions && (

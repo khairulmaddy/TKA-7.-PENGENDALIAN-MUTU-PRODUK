@@ -24,7 +24,7 @@ export const Header: React.FC<HeaderProps> = ({
           </div>
           <div>
             <h1 className="text-lg sm:text-xl font-bold bg-gradient-to-r from-white via-indigo-100 to-pink-200 bg-clip-text text-transparent tracking-wide">
-              Ujian Pengendalian Mutu (Quality Control)
+              Pengendalian Mutu Produk (Quality Control)
             </h1>
             <p className="text-xs sm:text-sm text-indigo-200/80 font-medium">
               Mata Pelajaran: <span className="text-indigo-300 font-semibold">Produk Kreatif dan Kewirausahaan (PKK)</span>

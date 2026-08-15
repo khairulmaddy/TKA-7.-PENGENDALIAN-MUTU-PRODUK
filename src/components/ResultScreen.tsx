@@ -60,7 +60,7 @@ export const ResultScreen: React.FC<ResultScreenProps> = ({
         <div className="relative z-10 space-y-4">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-extrabold uppercase tracking-wider bg-slate-100 text-slate-800">
             <Trophy className="w-4 h-4 text-amber-500" />
-            <span>Hasil Ujian • Kesempatan Ke-{attemptNumber} dari 3</span>
+            <span>Hasil Pengendalian Mutu Produk • Kesempatan Ke-{attemptNumber} dari 3</span>
           </div>
 
           <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">

@@ -52,7 +52,7 @@ export const CoverScreen: React.FC<CoverScreenProps> = ({ onStartQuiz }) => {
             </div>
 
             <h2 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-white leading-tight">
-              Ujian Pengendalian Mutu
+              Pengendalian Mutu Produk
             </h2>
 
             <div className="pt-1 flex items-center justify-center gap-2 text-sm text-indigo-200 font-medium">
@@ -67,7 +67,7 @@ export const CoverScreen: React.FC<CoverScreenProps> = ({ onStartQuiz }) => {
           <div className="bg-amber-50/80 border border-amber-200 rounded-2xl p-4 flex gap-3 items-start text-xs sm:text-sm text-amber-900">
             <Info className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" />
             <div className="space-y-1">
-              <p className="font-semibold text-amber-950">Aturan Ujian (3 Kesempatan):</p>
+              <p className="font-semibold text-amber-950">Aturan Pengendalian Mutu Produk (3 Kesempatan):</p>
               <ul className="list-disc list-inside space-y-0.5 text-amber-800">
                 <li>Setiap siswa memiliki maksimal <strong>3 kali kesempatan</strong>.</li>
                 <li><strong>Kesempatan 1 & 2</strong>: Menampilkan skor, kunci jawaban, dan pembahasan lengkap setelah selesai.</li>
